@@ -1,0 +1,22 @@
+{
+  "name": "node-neutralino-vanilla",
+  "version": "1.0.0",
+  "repository": "neutralinojs-community/node-neutralino-vanilla",
+  "license": "MIT",
+  "description": "A simple Vanilla JS template for building Neutralinojs apps with Project Runner.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "neu run",
+    "build": "neu build --clean",
+    "runner:install": "npm install",
+    "runner:dev": "node ./server.mjs",
+    "runner:build": "node backend/scripts/build.js"
+  },
+  "author": "neutralinojs-community",
+  "dependencies": {
+    "node-neutralino": "^0.0.7"
+  },
+  "devDependencies": {
+    "webpack": "^5.93.0"
+  }
+}
