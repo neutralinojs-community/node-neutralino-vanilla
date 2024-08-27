@@ -14,7 +14,7 @@
   },
   "author": "neutralinojs-community",
   "dependencies": {
-    "node-neutralino": "^0.0.1"
+    "node-neutralino": "^2.0.0"
   },
   "devDependencies": {
     "webpack": "^5.93.0"
