@@ -24,7 +24,8 @@
     "os.*",
     "debug.log",
     "window.*",
-    "events.*"
+    "events.*",
+    "extensions.*"
   ],
   "globalVariables": {
     "TEST1": "Hello",
