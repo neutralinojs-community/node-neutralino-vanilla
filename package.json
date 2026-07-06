@@ -1,8 +1,12 @@
 {
-  "name": "node-neutralino-vanilla",
+  "name": "@neutralinojs-contrib/nodeneutralinovanilla",
+  "package-name": "node-neutralino-vanilla",
   "version": "1.0.0",
   "repository": "neutralinojs-community/node-neutralino-vanilla",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "A simple Vanilla JS template for building Neutralinojs apps with Project Runner.",
   "main": "server.js",
   "scripts": {
